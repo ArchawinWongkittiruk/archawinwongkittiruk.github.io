@@ -8,12 +8,35 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-size: 5rem;
+  font-family: 'Merriweather', serif;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 50px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
 p {
+  font-size: 1.5rem;
   line-height: 2;
 }
 
 a {
+  font-size: 1.5rem;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 // Top
@@ -21,29 +44,20 @@ a {
 .top-container {
   background-image: url('../images/topphoto.JPG');
   background-size: 100%;
+  background-repeat: no-repeat;
   padding: 10%;
   height: 100vh;
-
-  h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 5rem;
-    color: white;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 20px;
-  }
 
   a {
     margin: 10px 15px;
     color: white;
-    transition: 0.3s;
     &:hover {
       color: lightgrey;
     }
   }
 
   @media (max-width: 1250px) {
-    height: 30vh;
+    height: 700px;
     padding: 15%;
     h1 {
       font-size: 3rem;
@@ -54,36 +68,83 @@ a {
 // Profile
 
 .profile-container {
-  padding: 100px;
+  background-color: #eeeeee;
+  padding: 100px 0;
 
   h2 {
+    color: black;
     padding: 20px;
   }
 
   p {
-    width: 50%;
+    width: 60%;
     margin: auto;
+    padding-bottom: 30px;
   }
+
+  a {
+    color: darkgrey;
+    &:hover {
+      color: darkslategrey;
+    }
+  }
+}
+
+// Projects
+
+.academic-projects-container {
+  background-color: #222831;
+}
+
+.personal-projects-container {
+  background-color: #393e46;
+}
+
+.personal-projects-container, .academic-projects-container {
+  padding: 100px;
+
+  .link-row {
+    margin: 10px;
+  }
+
+  a {
+    margin: 10px;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project {
+  background-color: #eeeeee;
+  padding: 20px 30px;
+  margin: 30px 10px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 // Contacts
 
 .contacts-container {
-  background-color: lightskyblue;
+  background-color: #00adb5;
   padding: 50px;
-  color: white;
-
-  h2 {
-    padding-bottom: 20px;
-  }
 
   a {
-    margin: 10px 20px;
+    margin: 10px 30px;
     color: whitesmoke;
+    &:hover {
+      color: lightgrey;
+    }
   }
 
   p {
+    color: white;
     font-size: 0.75rem;
-    padding-top: 30px;
+    padding-top: 50px;
   }
 }
