@@ -128,14 +128,14 @@ a {
   flex-direction: column;
 }
 
-// Contacts
+// Footer
 
-.contacts-container {
+.footer-container {
   background-color: #00adb5;
   padding: 50px;
 
   a {
-    margin: 10px 30px;
+    margin: 10px 20px;
     color: whitesmoke;
     &:hover {
       color: lightgrey;
@@ -144,7 +144,7 @@ a {
 
   p {
     color: white;
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding-top: 50px;
   }
 }
