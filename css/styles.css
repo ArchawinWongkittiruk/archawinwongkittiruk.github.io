@@ -100,22 +100,22 @@ a {
   padding: 100px;
 }
 
-.personal-projects-container .link-row, .academic-projects-container .link-row {
-  margin: 10px;
-}
-
 .personal-projects-container a, .academic-projects-container a {
   margin: 10px;
 }
 
-.projects {
+.personal-projects-container .link-row, .academic-projects-container .link-row {
+  margin: 10px;
+}
+
+.personal-projects-container .projects, .academic-projects-container .projects {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.project {
+.personal-projects-container .project, .academic-projects-container .project {
   background-color: #eeeeee;
   padding: 20px 30px;
   margin: 30px 10px;

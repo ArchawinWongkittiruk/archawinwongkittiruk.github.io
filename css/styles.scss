@@ -103,29 +103,29 @@ a {
 .personal-projects-container, .academic-projects-container {
   padding: 100px;
 
+  a {
+    margin: 10px;
+  }
+
   .link-row {
     margin: 10px;
   }
 
-  a {
-    margin: 10px;
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-}
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.project {
-  background-color: #eeeeee;
-  padding: 20px 30px;
-  margin: 30px 10px;
-  border-radius: 5%;
-  display: flex;
-  flex-direction: column;
+  .project {
+    background-color: #eeeeee;
+    padding: 20px 30px;
+    margin: 30px 10px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 // Footer
