@@ -4,6 +4,7 @@
   padding: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -37,85 +38,93 @@ a {
   transition: 0.3s;
 }
 
-.top-container {
+#top {
   background-image: url("../images/topphoto.JPG");
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 10%;
+  padding: 10% 10% 1%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.top-container a {
+#top a {
   margin: 10px 15px;
   color: white;
 }
 
-.top-container a:hover {
+#top a:hover {
   color: lightgrey;
 }
 
 @media (max-width: 1250px) {
-  .top-container {
+  #top {
     height: 700px;
     padding: 15%;
   }
-  .top-container h1 {
+  #top h1 {
     font-size: 3rem;
+  }
+  #top .arrow-link {
+    visibility: hidden;
   }
 }
 
-.profile-container {
+#profile {
   background-color: #eeeeee;
-  padding: 100px 0;
+  padding: 100px;
 }
 
-.profile-container h2 {
+#profile h3 {
   color: black;
   padding: 20px;
 }
 
-.profile-container p {
-  width: 60%;
+#profile p {
+  width: 70%;
   margin: auto;
   padding-bottom: 30px;
 }
 
-.profile-container a {
+#profile a {
   color: darkgrey;
 }
 
-.profile-container a:hover {
+#profile a:hover {
   color: darkslategrey;
 }
 
-.academic-projects-container {
+#academic-projects {
   background-color: #222831;
 }
 
-.personal-projects-container {
+#personal-projects {
   background-color: #393e46;
 }
 
-.personal-projects-container, .academic-projects-container {
+#personal-projects,
+#academic-projects {
   padding: 100px;
 }
 
-.personal-projects-container a, .academic-projects-container a {
+#personal-projects a,
+#personal-projects .link-row,
+#academic-projects a,
+#academic-projects .link-row {
   margin: 10px;
 }
 
-.personal-projects-container .link-row, .academic-projects-container .link-row {
-  margin: 10px;
-}
-
-.personal-projects-container .projects, .academic-projects-container .projects {
+#personal-projects .projects,
+#academic-projects .projects {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.personal-projects-container .project, .academic-projects-container .project {
+#personal-projects .project,
+#academic-projects .project {
   background-color: #eeeeee;
   padding: 20px 30px;
   margin: 30px 10px;
@@ -124,21 +133,21 @@ a {
   flex-direction: column;
 }
 
-.footer-container {
+#footer {
   background-color: #00adb5;
   padding: 50px;
 }
 
-.footer-container a {
+#footer a {
   margin: 10px 20px;
   color: whitesmoke;
 }
 
-.footer-container a:hover {
+#footer a:hover {
   color: lightgrey;
 }
 
-.footer-container p {
+#footer p {
   color: white;
   font-size: 1rem;
   padding-top: 50px;

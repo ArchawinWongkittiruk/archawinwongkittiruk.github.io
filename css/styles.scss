@@ -6,6 +6,7 @@
   padding: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -41,12 +42,15 @@ a {
 
 // Top
 
-.top-container {
+#top {
   background-image: url('../images/topphoto.JPG');
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 10%;
+  padding: 10% 10% 1%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   a {
     margin: 10px 15px;
@@ -62,22 +66,25 @@ a {
     h1 {
       font-size: 3rem;
     }
+    .arrow-link {
+      visibility: hidden;
+    }
   }
 }
 
 // Profile
 
-.profile-container {
+#profile {
   background-color: #eeeeee;
-  padding: 100px 0;
+  padding: 100px;
 
-  h2 {
+  h3 {
     color: black;
     padding: 20px;
   }
 
   p {
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding-bottom: 30px;
   }
@@ -92,21 +99,19 @@ a {
 
 // Projects
 
-.academic-projects-container {
+#academic-projects {
   background-color: #222831;
 }
 
-.personal-projects-container {
+#personal-projects {
   background-color: #393e46;
 }
 
-.personal-projects-container, .academic-projects-container {
+#personal-projects,
+#academic-projects {
   padding: 100px;
 
-  a {
-    margin: 10px;
-  }
-
+  a,
   .link-row {
     margin: 10px;
   }
@@ -130,7 +135,7 @@ a {
 
 // Footer
 
-.footer-container {
+#footer {
   background-color: #00adb5;
   padding: 50px;
 
