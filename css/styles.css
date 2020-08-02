@@ -51,10 +51,32 @@ a {
 
 #top a {
   margin: 10px 15px;
+}
+
+#top .logo {
+  background-color: white;
+  transition: 0.3s;
+  padding: 20px;
+  border-radius: 30%;
+}
+
+#top .logo:hover {
+  background-color: lightgrey;
+}
+
+#top .linkedin-logo {
+  color: #2867B2;
+}
+
+#top .github-logo {
+  color: #24292e;
+}
+
+#top .arrow-link {
   color: white;
 }
 
-#top a:hover {
+#top .arrow-link:hover {
   color: lightgrey;
 }
 

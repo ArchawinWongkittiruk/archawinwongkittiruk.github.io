@@ -54,6 +54,27 @@ a {
 
   a {
     margin: 10px 15px;
+  }
+
+  .logo {
+    background-color: white;
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 30%;
+    &:hover {
+      background-color: lightgrey;
+    }
+  }
+
+  .linkedin-logo {
+    color: #2867B2;
+  }
+
+  .github-logo {
+    color: #24292e;
+  }
+
+  .arrow-link {
     color: white;
     &:hover {
       color: lightgrey;
