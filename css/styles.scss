@@ -179,6 +179,22 @@ a {
 #footer {
   background-color: #00adb5;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+  .email {
+    margin: 0 auto 40px;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 0.8rem 1.6rem;
+    color: white;
+    border: solid white;
+    background-color: #009aa4;
+    &:hover {
+      color: white;
+      background-color: #00cfd7;
+    }
+  }
 
   a {
     margin: 10px 20px;
