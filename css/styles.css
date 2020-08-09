@@ -65,7 +65,7 @@ a {
 }
 
 #top .linkedin-logo {
-  color: #2867B2;
+  color: #2867b2;
 }
 
 #top .github-logo {
@@ -130,11 +130,35 @@ a {
   padding: 100px;
 }
 
-#personal-projects a,
 #personal-projects .link-row,
-#academic-projects a,
 #academic-projects .link-row {
-  margin: 10px;
+  margin: 20px auto 10px;
+}
+
+#personal-projects .link-row a,
+#academic-projects .link-row a {
+  margin: 0 10px;
+}
+
+#personal-projects a,
+#academic-projects a {
+  width: fit-content;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  margin: 10px auto;
+  color: white;
+  background-color: #00adb5;
+  transition: 0.2s;
+}
+
+#personal-projects a:hover,
+#academic-projects a:hover {
+  background-color: #00cfd7;
+}
+
+#personal-projects p i,
+#academic-projects p i {
+  line-height: 1;
 }
 
 #personal-projects .projects,
