@@ -121,27 +121,29 @@ a {
   background-color: #222831;
 }
 
+#academic-projects a {
+  font-size: 2rem;
+  color: grey;
+  transition: 0.2s;
+}
+
+#academic-projects a:hover {
+  color: darkslategrey;
+}
+
 #personal-projects {
   background-color: #393e46;
 }
 
-#personal-projects,
-#academic-projects {
-  padding: 100px;
-}
-
-#personal-projects .link-row,
-#academic-projects .link-row {
+#personal-projects .link-row {
   margin: 20px auto 10px;
 }
 
-#personal-projects .link-row a,
-#academic-projects .link-row a {
+#personal-projects .link-row a {
   margin: 0 10px;
 }
 
-#personal-projects a,
-#academic-projects a {
+#personal-projects a {
   width: fit-content;
   border-radius: 25px;
   padding: 0.5rem 1rem;
@@ -151,14 +153,17 @@ a {
   transition: 0.2s;
 }
 
-#personal-projects a:hover,
-#academic-projects a:hover {
+#personal-projects a:hover {
   background-color: #00cfd7;
 }
 
-#personal-projects p i,
-#academic-projects p i {
+#personal-projects p i {
   line-height: 1;
+}
+
+#personal-projects,
+#academic-projects {
+  padding: 100px;
 }
 
 #personal-projects .projects,

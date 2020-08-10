@@ -122,15 +122,19 @@ a {
 
 #academic-projects {
   background-color: #222831;
+
+  a {
+    font-size: 2rem;
+    color: grey;
+    transition: 0.2s;
+    &:hover {
+      color: darkslategrey;
+    }
+  }
 }
 
 #personal-projects {
   background-color: #393e46;
-}
-
-#personal-projects,
-#academic-projects {
-  padding: 100px;
 
   .link-row {
     margin: 20px auto 10px;
@@ -156,6 +160,11 @@ a {
   p i {
     line-height: 1;
   }
+}
+
+#personal-projects,
+#academic-projects {
+  padding: 100px;
 
   .projects {
     display: flex;
