@@ -1,3 +1,3 @@
 # Archawin Wongkittiruk's Personal Site
 
-https://archawinwongkittiruk.github.io/PersonalSite/
+https://archawinwongkittiruk.github.io/
