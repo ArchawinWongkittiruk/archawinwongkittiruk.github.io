@@ -145,7 +145,15 @@ a {
     margin: 0 10px;
   }
 
-  a {
+  i > a {
+    color: grey;
+    transition: 0.2s;
+    &:hover {
+      color: darkslategrey;
+    }
+  }
+
+  div > a {
     width: fit-content;
     border-radius: 25px;
     padding: 0.5rem 1rem;

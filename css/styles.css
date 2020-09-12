@@ -144,7 +144,16 @@ a {
   margin: 0 10px;
 }
 
-#personal-projects a {
+#personal-projects i > a {
+  color: grey;
+  transition: 0.2s;
+}
+
+#personal-projects i > a:hover {
+  color: darkslategrey;
+}
+
+#personal-projects div > a {
   width: fit-content;
   border-radius: 25px;
   padding: 0.5rem 1rem;
@@ -154,7 +163,7 @@ a {
   transition: 0.2s;
 }
 
-#personal-projects a:hover {
+#personal-projects div > a:hover {
   background-color: #00cfd7;
 }
 
