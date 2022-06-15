@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
 h1 {
   font-size: 5rem;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: white;
   width: 80%;
   margin: auto;
@@ -39,7 +39,7 @@ a {
 }
 
 #top {
-  background-image: url("../images/topphoto.JPG");
+  background-image: url("../images/topphoto.jpeg");
   background-size: cover;
   background-attachment: fixed;
   padding: 10% 10% 1%;
@@ -48,38 +48,30 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-
 #top a {
   margin: 10px 15px;
 }
-
 #top .logo {
   background-color: white;
   transition: 0.3s;
   padding: 20px;
   border-radius: 30%;
 }
-
 #top .logo:hover {
   background-color: lightgrey;
 }
-
 #top .linkedin-logo {
   color: #2867b2;
 }
-
 #top .github-logo {
   color: #24292e;
 }
-
 #top .arrow-link {
   color: white;
 }
-
 #top .arrow-link:hover {
   color: lightgrey;
 }
-
 @media (max-width: 1250px) {
   #top {
     height: 700px;
@@ -97,22 +89,18 @@ a {
   background-color: #eeeeee;
   padding: 100px;
 }
-
 #profile h3 {
   color: black;
   padding: 20px;
 }
-
 #profile p {
   width: 70%;
   margin: auto;
   padding-bottom: 30px;
 }
-
 #profile a {
   color: darkgrey;
 }
-
 #profile a:hover {
   color: darkslategrey;
 }
@@ -120,13 +108,11 @@ a {
 #academic-projects {
   background-color: #222831;
 }
-
 #academic-projects a {
   font-size: 2rem;
   color: grey;
   transition: 0.2s;
 }
-
 #academic-projects a:hover {
   color: darkslategrey;
 }
@@ -134,24 +120,19 @@ a {
 #personal-projects {
   background-color: #393e46;
 }
-
 #personal-projects .link-row {
   margin: 18px auto 18px;
 }
-
 #personal-projects .link-row a {
   margin: 0 10px;
 }
-
 #personal-projects i > a {
   color: grey;
   transition: 0.2s;
 }
-
 #personal-projects i > a:hover {
   color: darkslategrey;
 }
-
 #personal-projects div > a {
   width: fit-content;
   border-radius: 25px;
@@ -161,11 +142,9 @@ a {
   background-color: #00adb5;
   transition: 0.2s;
 }
-
 #personal-projects div > a:hover {
   background-color: #00cfd7;
 }
-
 #personal-projects p i {
   line-height: 1;
 }
@@ -174,7 +153,6 @@ a {
 #academic-projects {
   padding: 100px;
 }
-
 #personal-projects .projects,
 #academic-projects .projects {
   display: flex;
@@ -182,7 +160,6 @@ a {
   flex-direction: row;
   justify-content: center;
 }
-
 #personal-projects .project,
 #academic-projects .project {
   background-color: #eeeeee;
@@ -205,7 +182,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 #footer .email {
   margin: 0 auto 40px;
   width: fit-content;
@@ -215,21 +191,17 @@ a {
   border: solid white;
   background-color: #009aa4;
 }
-
 #footer .email:hover {
   color: white;
   background-color: #00cfd7;
 }
-
 #footer a {
   margin: 10px 20px;
   color: whitesmoke;
 }
-
 #footer a:hover {
   color: lightgrey;
 }
-
 #footer p {
   color: white;
   font-size: 1rem;
